@@ -4,3 +4,5 @@
 `map`和`subscribeOn`实现方式很类似,都是`create + OnSubscribe`,然后下游新创建的`Subscriber`作为代理转发上游传递的数据,详细的请看代码,虽然类很多,但是代码量很少,适合学习。
 ## todo  
 继续阅读源码补充其他的操作符的实现
+## PS
+并不涉及`RxJavaHooks`及`Producer`的内容
